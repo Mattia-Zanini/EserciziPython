@@ -21,30 +21,31 @@ KWH_ANNUI: Final[int] = 2700
 SMC_ANNUI: Final[int] = 1300
 POTERE_CALORIFERO: Final[float] = 10.7
 
-cald = Caldaia(0.9)
-cald.CalcUtilizzo(KWH_ANNUI, POTERE_CALORIFERO)
-cald.CalcCosto(SMC_ANNUI, GAS, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
+caldaia_eco = Caldaia(0.9)
+caldaia_eco.CalcUtilizzo(KWH_ANNUI, POTERE_CALORIFERO)
+caldaia_eco.CalcCosto(SMC_ANNUI, GAS, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
 print(
-    f"Caldaia\nRendimento: {cald.GetRendimento()}\nCosto: {cald.GetCosto()}€")
+    f"Caldaia Eco\nRendimento: {caldaia_eco.GetRendimento()}\nCosto: {caldaia_eco.GetCosto()}€")
 
-cald = Caldaia(1)
-cald.CalcUtilizzo(KWH_ANNUI, POTERE_CALORIFERO)
-cald.CalcCosto(SMC_ANNUI, GAS, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
-print(f"Rendimento: {cald.GetRendimento()}\nCosto: {cald.GetCosto()}€")
-
-stuf = Stufa(1)
-stuf.CalcUtilizzo(SMC_ANNUI, POTERE_CALORIFERO)
-stuf.CalcCosto(KWH_ANNUI, ENERGIA, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
-print(f"\nStufa\nCosto: {stuf.GetCosto()}€\n")
-
-pomp = Pompa(3.6)
-pomp.CalcUtilizzo(SMC_ANNUI, POTERE_CALORIFERO)
-pomp.CalcCosto(KWH_ANNUI, ENERGIA, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
+caldaia = Caldaia(1)
+caldaia.CalcUtilizzo(KWH_ANNUI, POTERE_CALORIFERO)
+caldaia.CalcCosto(SMC_ANNUI, GAS, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
 print(
-    f"Pompa di calore ultra\nRendimento: {pomp.GetRendimento()}\nCosto: {pomp.GetCosto()}€\n")
+    f"\nCaldaia\nRendimento: {caldaia.GetRendimento()}\nCosto: {caldaia.GetCosto()}€")
 
-pomp = Pompa(2.8)
-pomp.CalcUtilizzo(SMC_ANNUI, POTERE_CALORIFERO)
-pomp.CalcCosto(KWH_ANNUI, ENERGIA, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
+stufa = Stufa(1)
+stufa.CalcUtilizzo(SMC_ANNUI, POTERE_CALORIFERO)
+stufa.CalcCosto(KWH_ANNUI, ENERGIA, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
+print(f"\nStufa\nCosto: {stufa.GetCosto()}€\n")
+
+pompa = Pompa(3.6)
+pompa.CalcUtilizzo(SMC_ANNUI, POTERE_CALORIFERO)
+pompa.CalcCosto(KWH_ANNUI, ENERGIA, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
 print(
-    f"Pompa di calore eco\nRendimento: {pomp.GetRendimento()}\nCosto: {pomp.GetCosto()}€")
+    f"Pompa di calore ultra\nRendimento: {pompa.GetRendimento()}\nCosto: {pompa.GetCosto()}€\n")
+
+pompa_eco = Pompa(2.8)
+pompa_eco.CalcUtilizzo(SMC_ANNUI, POTERE_CALORIFERO)
+pompa_eco.CalcCosto(KWH_ANNUI, ENERGIA, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
+print(
+    f"Pompa di calore eco\nRendimento: {pompa_eco.GetRendimento()}\nCosto: {pompa_eco.GetCosto()}€")
