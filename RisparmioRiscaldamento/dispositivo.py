@@ -1,14 +1,9 @@
 class Dispositivo:
-    def __init__(self, rendimento):
+    def __init__(self, rendimento, nomeDisp):
         self.rendimento = rendimento
         self.utilizzo = None
-        self.costo = None
-
-        # This method gets called when using == on the object
-    def __eq__(self, other):
-        print(f'comparing {self} to {other}')
-        # Return True if self and other have the same length
-        return len(self) == len(other)
+        self.prezzoDispositivo = None
+        self.nome = nomeDisp
 
     def CalcUtilizzo(self, consumo, potereCalorifero):
         self.utilizzo = (consumo / (potereCalorifero*self.rendimento))
@@ -24,3 +19,9 @@ class Dispositivo:
 
     def GetRendimento(self):
         return self.rendimento
+
+    def GetPrezzoDispositivo(self):
+        return self.prezzoDispositivo
+
+    def GetNome(self):
+        return self.nome
