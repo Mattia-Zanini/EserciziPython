@@ -21,6 +21,7 @@ SPESE_TRASPORTO: Final[int] = 8*12
 POTERE_CALORIFERO: Final[float] = 10.7
 
 bollette = []
+tasse = QVD + ONERI_SISTEMA + SPESE_TRASPORTO
 riscaldamento = Enum(
     'Dispositivi', 'caldaia_eco caldaia stufa pompa_eco pompa')
 
@@ -83,30 +84,30 @@ smcAnnui = InputCorretto()
 # Creazione dei diversi oggetti Dispositivo
 caldaia_eco = Caldaia(0.9, riscaldamento.caldaia_eco.name)
 caldaia_eco.CalcUtilizzo(kWhAnnui, POTERE_CALORIFERO)
-caldaia_eco.CalcCosto(smcAnnui, GAS, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
+caldaia_eco.CalcCosto(smcAnnui, GAS, tasse)
 print(
     f"Caldaia Eco\nRendimento: {caldaia_eco.GetRendimento()}\nCosto: {caldaia_eco.GetCosto()}€")
 
 caldaia = Caldaia(1, riscaldamento.caldaia.name)
 caldaia.CalcUtilizzo(kWhAnnui, POTERE_CALORIFERO)
-caldaia.CalcCosto(smcAnnui, GAS, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
+caldaia.CalcCosto(smcAnnui, GAS, tasse)
 print(
     f"\nCaldaia\nRendimento: {caldaia.GetRendimento()}\nCosto: {caldaia.GetCosto()}€")
 
 stufa = Stufa(1, riscaldamento.stufa.name)
 stufa.CalcUtilizzo(smcAnnui, POTERE_CALORIFERO)
-stufa.CalcCosto(kWhAnnui, ENERGIA, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
+stufa.CalcCosto(kWhAnnui, ENERGIA, tasse)
 print(f"\nStufa\nCosto: {stufa.GetCosto()}€\n")
 
 pompa = Pompa(3.6, riscaldamento.pompa.name)
 pompa.CalcUtilizzo(smcAnnui, POTERE_CALORIFERO)
-pompa.CalcCosto(kWhAnnui, ENERGIA, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
+pompa.CalcCosto(kWhAnnui, ENERGIA, tasse)
 print(
     f"Pompa di calore ultra\nRendimento: {pompa.GetRendimento()}\nCosto: {pompa.GetCosto()}€\n")
 
 pompa_eco = Pompa(2.8, riscaldamento.pompa_eco.name)
 pompa_eco.CalcUtilizzo(smcAnnui, POTERE_CALORIFERO)
-pompa_eco.CalcCosto(kWhAnnui, ENERGIA, QVD + ONERI_SISTEMA + SPESE_TRASPORTO)
+pompa_eco.CalcCosto(kWhAnnui, ENERGIA, tasse)
 print(
     f"Pompa di calore eco\nRendimento: {pompa_eco.GetRendimento()}\nCosto: {pompa_eco.GetCosto()}€")
 
