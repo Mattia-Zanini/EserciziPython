@@ -4,6 +4,12 @@ class Dispositivo:
         self.utilizzo = None
         self.costo = None
 
+        # This method gets called when using == on the object
+    def __eq__(self, other):
+        print(f'comparing {self} to {other}')
+        # Return True if self and other have the same length
+        return len(self) == len(other)
+
     def CalcUtilizzo(self, consumo, potereCalorifero):
         self.utilizzo = (consumo / (potereCalorifero*self.rendimento))
 
