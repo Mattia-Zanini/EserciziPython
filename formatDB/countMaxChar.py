@@ -1,8 +1,12 @@
-f = open("elenco.txt", "r", encoding="utf-8")
+nameFile = str(input("Inserisci il nome e formato del file\n"))
+
+f = open(nameFile, "r", encoding="utf-8")
 file = []
 importValues = []
-count = 0
 
+index = 0
+fields = {}
+keysNames = []
 
 def RemoveChars(l):
     l = l.replace("\n", "")
@@ -20,11 +24,31 @@ def CountChars(sL, par, c):
             c = len(sL[par])
     return c
 
+def GetMaxLength(p):
+    cc = 0
+    for i in range(0, len(file)):
+        cc = CountChars(file[i], p, cc)
+    return cc
+
 
 for line in f:
-    line = RemoveChars(line)
-    singleLine = Format(line)
-    param = 6
-    count = CountChars(singleLine, param, count)
+    if index != 0:
+        line = RemoveChars(line)
+        singleLine = Format(line)
+        file.append(singleLine)
+    else:
+        line = RemoveChars(line)
+        singleLine = Format(line)
+        
+        for i in range(0, len(singleLine)):
+            fields[str(singleLine[i])] = None
+        
+        for key in fields.keys():
+            keysNames.append(key)
 
-print("Questo è il numero massimo di char: " + str(count))
+    index += 1
+
+print("\n")
+
+for i in range(0, len(fields)):
+    print(f"{keysNames[i]}: max_length: {GetMaxLength(i)}")
