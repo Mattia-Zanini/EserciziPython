@@ -1,0 +1,555 @@
+id_atleta,nome,squadra,id_squadra
+2,Maignan,AC Milan,1
+27,Mirante,AC Milan,1
+29,Tatarusanu,AC Milan,1
+65,Hernandez T.,AC Milan,1
+77,Calabria,AC Milan,1
+84,Tomori,AC Milan,1
+85,Kalulu,AC Milan,1
+179,Thiaw,AC Milan,1
+185,Florenzi,AC Milan,1
+194,Kjaer,AC Milan,1
+200,Dest,AC Milan,1
+242,Gabbia,AC Milan,1
+245,Ballo-Toure',AC Milan,1
+284,De Ketelaere,AC Milan,1
+292,Bennacer,AC Milan,1
+293,Tonali,AC Milan,1
+299,Diaz B.,AC Milan,1
+311,Messias,AC Milan,1
+353,Pobega,AC Milan,1
+367,Saelemaekers,AC Milan,1
+369,Vranckx,AC Milan,1
+372,Krunic,AC Milan,1
+384,Adli,AC Milan,1
+425,Bakayoko,AC Milan,1
+459,Giroud,AC Milan,1
+461,Rafael Leao,AC Milan,1
+500,Rebic,AC Milan,1
+503,Origi,AC Milan,1
+518,Ibrahimovic,AC Milan,1
+552,Lazetic,AC Milan,1
+23,Cragno,AC Monza,2
+25,Di Gregorio,AC Monza,2
+30,Lamanna,AC Monza,2
+60,Sorrentino A.,AC Monza,2
+103,Mari',AC Monza,2
+139,Carlos Augusto,AC Monza,2
+164,Marlon,AC Monza,2
+182,Izzo,AC Monza,2
+199,Caldirola,AC Monza,2
+205,Birindelli,AC Monza,2
+210,Marrone,AC Monza,2
+216,Carboni,AC Monza,2
+225,Donati,AC Monza,2
+237,Paletta,AC Monza,2
+247,Antov,AC Monza,2
+249,Ferrarini,AC Monza,2
+304,Sensi,AC Monza,2
+322,Pessina,AC Monza,2
+335,Colpani,AC Monza,2
+376,Barberis,AC Monza,2
+386,Molina S.,AC Monza,2
+387,Valoti,AC Monza,2
+389,Rovella,AC Monza,2
+397,Ciurria,AC Monza,2
+412,D'alessandro,AC Monza,2
+413,Machin,AC Monza,2
+420,Ranocchia F.,AC Monza,2
+426,Scozzarella,AC Monza,2
+445,Vignato S.,AC Monza,2
+446,Bondo,AC Monza,2
+471,Caprari,AC Monza,2
+508,Mota,AC Monza,2
+510,Petagna,AC Monza,2
+529,Gytkjaer,AC Monza,2
+16,Gollini,ACF Fiorentina,3
+24,Terracciano,ACF Fiorentina,3
+41,Cerofolini,ACF Fiorentina,3
+91,Dodo',ACF Fiorentina,3
+100,Biraghi,ACF Fiorentina,3
+102,Milenkovic,ACF Fiorentina,3
+104,Martinez Quarta,ACF Fiorentina,3
+154,Igor,ACF Fiorentina,3
+224,Venuti,ACF Fiorentina,3
+226,Terzic,ACF Fiorentina,3
+227,Ranieri L.,ACF Fiorentina,3
+285,Barak,ACF Fiorentina,3
+286,Bonaventura,ACF Fiorentina,3
+303,Mandragora,ACF Fiorentina,3
+307,Sottil,ACF Fiorentina,3
+309,Ikone',ACF Fiorentina,3
+325,Saponara,ACF Fiorentina,3
+329,Amrabat,ACF Fiorentina,3
+349,Zurkowski,ACF Fiorentina,3
+365,Castrovilli,ACF Fiorentina,3
+368,Maleh,ACF Fiorentina,3
+373,Duncan,ACF Fiorentina,3
+401,Benassi,ACF Fiorentina,3
+436,Bianco,ACF Fiorentina,3
+480,Jovic,ACF Fiorentina,3
+482,Gonzalez N.,ACF Fiorentina,3
+496,Kouame',ACF Fiorentina,3
+497,Cabral,ACF Fiorentina,3
+9,Rui Patricio,AS Roma,4
+52,Boer,AS Roma,4
+59,Svilar,AS Roma,4
+68,Smalling,AS Roma,4
+75,Ibanez,AS Roma,4
+88,Mancini,AS Roma,4
+93,Spinazzola,AS Roma,4
+123,Karsdorp,AS Roma,4
+126,Celik,AS Roma,4
+196,Kumbulla,AS Roma,4
+251,Vina,AS Roma,4
+270,Pellegrini Lo.,AS Roma,4
+291,Zaniolo,AS Roma,4
+302,Cristante,AS Roma,4
+306,Wijnaldum,AS Roma,4
+327,El Shaarawy,AS Roma,4
+338,Matic,AS Roma,4
+355,Zalewski,AS Roma,4
+371,Camara Ma.,AS Roma,4
+430,Darboe,AS Roma,4
+431,Bove,AS Roma,4
+440,Volpato,AS Roma,4
+452,Tripi,AS Roma,4
+462,Dybala,AS Roma,4
+464,Abraham,AS Roma,4
+491,Belotti,AS Roma,4
+522,Shomurodov,AS Roma,4
+3,Musso,Atalanta,5
+26,Sportiello,Atalanta,5
+42,Rossi F.,Atalanta,5
+73,Demiral,Atalanta,5
+78,Toloi,Atalanta,5
+105,Maehle,Atalanta,5
+106,Scalvini,Atalanta,5
+113,Zappacosta,Atalanta,5
+124,Palomino,Atalanta,5
+135,Soppy,Atalanta,5
+147,Hateboer,Atalanta,5
+162,Djimsiti,Atalanta,5
+195,Okoli,Atalanta,5
+228,Zortea,Atalanta,5
+246,Ruggeri,Atalanta,5
+272,Koopmeiners,Atalanta,5
+276,Malinovskyi,Atalanta,5
+283,Pasalic,Atalanta,5
+324,Ederson D.s.,Atalanta,5
+336,De Roon,Atalanta,5
+467,Zapata D.,Atalanta,5
+470,Muriel,Atalanta,5
+484,Lookman,Atalanta,5
+513,Hojlund,Atalanta,5
+519,Boga,Atalanta,5
+14,Skorupski,Bologna FC,6
+36,Bardi,Bologna FC,6
+57,Bagnolini,Bologna FC,6
+109,Lucumi',Bologna FC,6
+110,Medel,Bologna FC,6
+116,Cambiaso,Bologna FC,6
+119,De Silvestri,Bologna FC,6
+137,Kasius,Bologna FC,6
+140,Posch,Bologna FC,6
+165,Lykogiannis,Bologna FC,6
+193,Bonifazi,Bologna FC,6
+197,Soumaoro,Bologna FC,6
+248,Amey,Bologna FC,6
+263,Sosa,Bologna FC,6
+297,Soriano,Bologna FC,6
+317,Orsolini,Bologna FC,6
+352,Dominguez,Bologna FC,6
+366,Schouten,Bologna FC,6
+391,Aebischer,Bologna FC,6
+399,Moro N.,Bologna FC,6
+410,Ferguson,Bologna FC,6
+414,Vignato,Bologna FC,6
+432,Urbanski,Bologna FC,6
+460,Arnautovic,Bologna FC,6
+495,Barrow,Bologna FC,6
+527,Zirkzee,Bologna FC,6
+530,Sansone,Bologna FC,6
+547,Raimondo,Bologna FC,6
+6,Vicario,Empoli FC,7
+31,Ujkani,Empoli FC,7
+35,Perisan,Empoli FC,7
+76,Parisi,Empoli FC,7
+130,Ismajli,Empoli FC,7
+131,Stojanovic,Empoli FC,7
+184,Luperto,Empoli FC,7
+204,De Winter,Empoli FC,7
+212,Walukiewicz,Empoli FC,7
+231,Ebuehi,Empoli FC,7
+235,Tonelli,Empoli FC,7
+256,Cacace,Empoli FC,7
+264,Guarino,Empoli FC,7
+295,Bajrami,Empoli FC,7
+318,Bandinelli,Empoli FC,7
+350,Henderson L.,Empoli FC,7
+358,Grassi,Empoli FC,7
+362,Haas,Empoli FC,7
+381,Marin,Empoli FC,7
+409,Baldanzi,Empoli FC,7
+429,Akpa Akpro,Empoli FC,7
+449,Degli Innocenti,Empoli FC,7
+450,Fazzini,Empoli FC,7
+485,Lammers,Empoli FC,7
+502,Destro,Empoli FC,7
+504,Satriano,Empoli FC,7
+516,Pjaca,Empoli FC,7
+532,Cambiaghi,Empoli FC,7
+10,Montipo',Hellas Verona,8
+33,Perilli,Hellas Verona,8
+47,Berardi A.,Hellas Verona,8
+63,Chiesa M.,Hellas Verona,8
+92,Faraoni,Hellas Verona,8
+107,Doig,Hellas Verona,8
+159,Hien,Hellas Verona,8
+167,Gunter,Hellas Verona,8
+190,Ceccherini,Hellas Verona,8
+192,Depaoli,Hellas Verona,8
+213,Dawidowicz,Hellas Verona,8
+218,Coppola D.,Hellas Verona,8
+233,Cabal,Hellas Verona,8
+241,Magnani,Hellas Verona,8
+296,Lazovic,Hellas Verona,8
+310,Tameze,Hellas Verona,8
+323,Ilic,Hellas Verona,8
+326,Verdi,Hellas Verona,8
+361,Miguel Veloso,Hellas Verona,8
+393,Terracciano F.,Hellas Verona,8
+398,Hrustic,Hellas Verona,8
+407,Hongla,Hellas Verona,8
+434,Cortinovis,Hellas Verona,8
+441,Praszelik,Hellas Verona,8
+479,Henry,Hellas Verona,8
+509,Lasagna,Hellas Verona,8
+521,Piccoli,Hellas Verona,8
+524,Djuric,Hellas Verona,8
+534,Kallon,Hellas Verona,8
+7,Handanovic,Inter,9
+37,Cordaz,Inter,9
+58,Onana,Inter,9
+66,Dumfries,Inter,9
+72,Gosens,Inter,9
+82,Skriniar,Inter,9
+87,Bastoni,Inter,9
+96,Darmian,Inter,9
+101,Dimarco,Inter,9
+111,De Vrij,Inter,9
+128,Bellanova,Inter,9
+142,D'ambrosio,Inter,9
+161,Acerbi,Inter,9
+253,Zanotti,Inter,9
+266,Barella,Inter,9
+275,Calhanoglu,Inter,9
+288,Brozovic,Inter,9
+305,Mkhitaryan,Inter,9
+375,Gagliardini,Inter,9
+383,Asllani,Inter,9
+457,Martinez L.,Inter,9
+458,Lukaku,Inter,9
+476,Correa,Inter,9
+489,Dzeko,Inter,9
+11,Szczesny,Juventus FC,10
+15,Perin,Juventus FC,10
+38,Pinsoglio,Juventus FC,10
+67,Bremer,Juventus FC,10
+80,Bonucci,Juventus FC,10
+97,Danilo,Juventus FC,10
+120,Alex Sandro,Juventus FC,10
+160,De Sciglio,Juventus FC,10
+183,Rugani,Juventus FC,10
+219,Gatti,Juventus FC,10
+279,Chiesa,Juventus FC,10
+281,Pogba,Juventus FC,10
+294,Kostic,Juventus FC,10
+315,Paredes,Juventus FC,10
+316,Cuadrado,Juventus FC,10
+319,Locatelli,Juventus FC,10
+340,Mckennie,Juventus FC,10
+344,Miretti,Juventus FC,10
+363,Rabiot,Juventus FC,10
+415,Fagioli,Juventus FC,10
+456,Vlahovic,Juventus FC,10
+469,Di Maria,Juventus FC,10
+472,Milik,Juventus FC,10
+511,Kean,Juventus FC,10
+549,Kaio Jorge,Juventus FC,10
+551,Soule',Juventus FC,10
+18,Dragowski,Spezia Calcio,11
+51,Zoet,Spezia Calcio,11
+55,Zovko,Spezia Calcio,11
+69,Bastoni S.,Spezia Calcio,11
+125,Reca,Spezia Calcio,11
+127,Ampadu,Spezia Calcio,11
+136,Kiwior,Spezia Calcio,11
+163,Hristov,Spezia Calcio,11
+169,Nikolaou,Spezia Calcio,11
+174,Holm,Spezia Calcio,11
+186,Sala,Spezia Calcio,11
+188,Caldara,Spezia Calcio,11
+201,Amian,Spezia Calcio,11
+244,Ferrer,Spezia Calcio,11
+331,Gyasi,Spezia Calcio,11
+339,Agudelo,Spezia Calcio,11
+348,Bourabia,Spezia Calcio,11
+354,Kovalenko,Spezia Calcio,11
+378,Ekdal,Spezia Calcio,11
+422,Ellertsson,Spezia Calcio,11
+428,Maldini,Spezia Calcio,11
+438,Sher,Spezia Calcio,11
+439,Nguiamba,Spezia Calcio,11
+486,Nzola,Spezia Calcio,11
+501,Verde,Spezia Calcio,11
+525,Strelec,Spezia Calcio,11
+554,Sanca,Spezia Calcio,11
+8,Provedel,SS Lazio,12
+20,Luis Maximiano,SS Lazio,12
+53,Adamonis,SS Lazio,12
+81,Romagnoli,SS Lazio,12
+95,Lazzari,SS Lazio,12
+112,Patric,SS Lazio,12
+132,Casale,SS Lazio,12
+148,Marusic,SS Lazio,12
+181,Hysaj,SS Lazio,12
+232,Gila,SS Lazio,12
+236,Radu,SS Lazio,12
+238,Fares,SS Lazio,12
+250,Kamenovic,SS Lazio,12
+265,Milinkovic-Savic,SS Lazio,12
+271,Luis Alberto,SS Lazio,12
+273,Felipe Anderson,SS Lazio,12
+274,Zaccagni,SS Lazio,12
+346,Cataldi,SS Lazio,12
+356,Marcos Antonio,SS Lazio,12
+359,Vecino,SS Lazio,12
+370,Basic,SS Lazio,12
+433,Bertini,SS Lazio,12
+435,Romero L.,SS Lazio,12
+455,Immobile,SS Lazio,12
+474,Pedro,SS Lazio,12
+535,Cancellieri,SS Lazio,12
+1,Meret,SSC Napoli,13
+40,Sirigu,SSC Napoli,13
+54,Marfella,SSC Napoli,13
+71,Kim,SSC Napoli,13
+79,Di Lorenzo,SSC Napoli,13
+83,Rrahmani,SSC Napoli,13
+99,Mario Rui,SSC Napoli,13
+143,Juan Jesus,SSC Napoli,13
+175,Ostigard,SSC Napoli,13
+176,Olivera,SSC Napoli,13
+252,Zanoli,SSC Napoli,13
+267,Kvaratskhelia,SSC Napoli,13
+268,Zielinski,SSC Napoli,13
+278,Politano,SSC Napoli,13
+287,Lobotka,SSC Napoli,13
+289,Zambo Anguissa,SSC Napoli,13
+308,Elmas,SSC Napoli,13
+328,Ndombele',SSC Napoli,13
+405,Gaetano,SSC Napoli,13
+416,Demme,SSC Napoli,13
+448,Zerbin,SSC Napoli,13
+463,Osimhen,SSC Napoli,13
+473,Simeone,SSC Napoli,13
+483,Raspadori,SSC Napoli,13
+492,Lozano,SSC Napoli,13
+19,Milinkovic-Savic V.,Torino FC,14
+21,Berisha,Torino FC,14
+49,Gemello,Torino FC,14
+89,Vojvoda,Torino FC,14
+94,Rodriguez R.,Torino FC,14
+98,Singo,Torino FC,14
+108,Schuurs,Torino FC,14
+153,Djidji,Torino FC,14
+166,Buongiorno,Torino FC,14
+168,Aina,Torino FC,14
+170,Lazaro,Torino FC,14
+203,Zima,Torino FC,14
+243,Adopo,Torino FC,14
+257,Bayeye,Torino FC,14
+277,Vlasic,Torino FC,14
+300,Radonjic,Torino FC,14
+321,Lukic,Torino FC,14
+341,Miranchuk,Torino FC,14
+342,Ricci S.,Torino FC,14
+377,Linetty,Torino FC,14
+421,Ilkhan,Torino FC,14
+454,Garbett,Torino FC,14
+477,Sanabria,Torino FC,14
+517,Pellegri,Torino FC,14
+528,Seck,Torino FC,14
+540,Karamoh,Torino FC,14
+545,Edera,Torino FC,14
+17,Audero,UC Sampdoria,15
+43,Contini,UC Sampdoria,15
+50,Ravaglia,UC Sampdoria,15
+114,Colley,UC Sampdoria,15
+155,Augello,UC Sampdoria,15
+180,Ferrari A.,UC Sampdoria,15
+189,Murru,UC Sampdoria,15
+191,Bereszynski,UC Sampdoria,15
+223,Murillo,UC Sampdoria,15
+230,Amione,UC Sampdoria,15
+234,Conti,UC Sampdoria,15
+312,Sabiri,UC Sampdoria,15
+320,Djuricic,UC Sampdoria,15
+360,Rincon,UC Sampdoria,15
+374,Verre,UC Sampdoria,15
+379,Winks,UC Sampdoria,15
+380,Villar,UC Sampdoria,15
+388,Vieira,UC Sampdoria,15
+404,Leris,UC Sampdoria,15
+437,Yepes,UC Sampdoria,15
+442,Trimboli,UC Sampdoria,15
+481,Caputo,UC Sampdoria,15
+487,Gabbiadini,UC Sampdoria,15
+523,Quagliarella,UC Sampdoria,15
+539,Pussetto,UC Sampdoria,15
+542,De Luca,UC Sampdoria,15
+4,Silvestri,Udinese Calcio,16
+34,Padelli,Udinese Calcio,16
+56,Piana,Udinese Calcio,16
+70,Udogie,Udinese Calcio,16
+74,Rodrigo Becao,Udinese Calcio,16
+117,Bijol,Udinese Calcio,16
+118,Masina,Udinese Calcio,16
+149,Nuytinck,Udinese Calcio,16
+157,Perez N.,Udinese Calcio,16
+206,Ebosse,Udinese Calcio,16
+209,Ehizibue,Udinese Calcio,16
+258,Ebosele,Udinese Calcio,16
+259,Buta,Udinese Calcio,16
+261,Abankwah,Udinese Calcio,16
+262,Guessand A.,Udinese Calcio,16
+269,Pereyra,Udinese Calcio,16
+301,Samardzic,Udinese Calcio,16
+313,Lovric,Udinese Calcio,16
+332,Arslan,Udinese Calcio,16
+333,Makengo,Udinese Calcio,16
+337,Walace,Udinese Calcio,16
+424,Jajalo,Udinese Calcio,16
+443,Pafundi,Udinese Calcio,16
+466,Beto,Udinese Calcio,16
+468,Deulofeu,Udinese Calcio,16
+507,Success,Udinese Calcio,16
+515,Nestorovski,Udinese Calcio,16
+22,Radu I.,US CreAC Monzaese,17
+28,Sarr M.,US CreAC Monzaese,17
+45,Carnesecchi,US CreAC Monzaese,17
+61,Ciezkowski,US CreAC Monzaese,17
+64,Saro,US CreAC Monzaese,17
+90,Valeri,US CreAC Monzaese,17
+141,Ghiglione,US CreAC Monzaese,17
+144,Bianchetti,US CreAC Monzaese,17
+145,Chiriches,US CreAC Monzaese,17
+152,Sernicola,US CreAC Monzaese,17
+202,Vasquez,US CreAC Monzaese,17
+207,Aiwu,US CreAC Monzaese,17
+208,Lochoshvili,US CreAC Monzaese,17
+220,Quagliata,US CreAC Monzaese,17
+221,Hendry,US CreAC Monzaese,17
+260,Ndiaye,US CreAC Monzaese,17
+347,Meite',US CreAC Monzaese,17
+364,Ascacibar,US CreAC Monzaese,17
+394,Milanese,US CreAC Monzaese,17
+395,Pickel,US CreAC Monzaese,17
+402,Baez,US CreAC Monzaese,17
+406,Escalante,US CreAC Monzaese,17
+418,Castagnetti,US CreAC Monzaese,17
+451,Acella,US CreAC Monzaese,17
+493,Okereke,US CreAC Monzaese,17
+499,Dessers,US CreAC Monzaese,17
+520,Zanimacchia,US CreAC Monzaese,17
+526,Buonaiuto,US CreAC Monzaese,17
+536,Afena-Gyan,US CreAC Monzaese,17
+537,Tsadjout,US CreAC Monzaese,17
+544,Ciofani D.,US CreAC Monzaese,17
+13,Falcone,US Lecce,18
+44,Brancolini,US Lecce,18
+46,Bleve,US Lecce,18
+134,Pongracic,US Lecce,18
+138,Baschirotto,US Lecce,18
+146,Pezzella Giu.,US Lecce,18
+151,Umtiti,US Lecce,18
+171,Gallo,US Lecce,18
+178,Gendrey,US Lecce,18
+214,Cetin,US Lecce,18
+217,Tuia,US Lecce,18
+222,Dermaku,US Lecce,18
+290,Strefezza,US Lecce,18
+334,Hjulmand,US Lecce,18
+357,Gonzalez J.,US Lecce,18
+385,Bistrovic,US Lecce,18
+396,Blin,US Lecce,18
+400,Oudin,US Lecce,18
+411,Listkowski,US Lecce,18
+417,Askildsen,US Lecce,18
+419,Helgason,US Lecce,18
+444,Bjorkengren,US Lecce,18
+447,Samek,US Lecce,18
+498,Ceesay,US Lecce,18
+512,Banda,US Lecce,18
+514,Di Francesco F.,US Lecce,18
+533,Colombo,US Lecce,18
+541,Rodriguez P.,US Lecce,18
+553,Voelkerling Persson,US Lecce,18
+5,Sepe,US Salernitana 1919,19
+39,Fiorillo,US Salernitana 1919,19
+62,Micai,US Salernitana 1919,19
+86,Mazzocchi,US Salernitana 1919,19
+122,Fazio,US Salernitana 1919,19
+133,Daniliuc,US Salernitana 1919,19
+158,Bronn,US Salernitana 1919,19
+173,Bradaric,US Salernitana 1919,19
+177,Sambia,US Salernitana 1919,19
+187,Gyomber,US Salernitana 1919,19
+198,Lovato,US Salernitana 1919,19
+211,Radovanovic,US Salernitana 1919,19
+229,Pirola,US Salernitana 1919,19
+255,Motoc,US Salernitana 1919,19
+282,Candreva,US Salernitana 1919,19
+314,Vilhena,US Salernitana 1919,19
+330,Maggiore,US Salernitana 1919,19
+343,Coulibaly L.,US Salernitana 1919,19
+392,Bohinen,US Salernitana 1919,19
+403,Kastanos,US Salernitana 1919,19
+423,Capezzi,US Salernitana 1919,19
+475,Dia,US Salernitana 1919,19
+488,Bonazzoli,US Salernitana 1919,19
+490,Piatek,US Salernitana 1919,19
+505,Botheim,US Salernitana 1919,19
+538,Ribery,US Salernitana 1919,19
+543,Valencia D.,US Salernitana 1919,19
+548,Kristoffersen,US Salernitana 1919,19
+12,Consigli,US Sassuolo,20
+32,Pegolo,US Sassuolo,20
+48,Russo A.,US Sassuolo,20
+115,Kyriakopoulos,US Sassuolo,20
+121,Ferrari G.,US Sassuolo,20
+129,Erlic,US Sassuolo,20
+150,Rogerio,US Sassuolo,20
+156,Toljan,US Sassuolo,20
+172,Ayhan,US Sassuolo,20
+215,Muldur,US Sassuolo,20
+239,Marchizza,US Sassuolo,20
+240,Romagna,US Sassuolo,20
+254,Ruan,US Sassuolo,20
+280,Frattesi,US Sassuolo,20
+298,Traore' Hj.,US Sassuolo,20
+345,Thorstvedt,US Sassuolo,20
+351,Lopez M.,US Sassuolo,20
+382,Matheus Henrique,US Sassuolo,20
+390,Ceide,US Sassuolo,20
+408,Harroui,US Sassuolo,20
+427,Obiang,US Sassuolo,20
+453,D'andrea,US Sassuolo,20
+465,Berardi,US Sassuolo,20
+478,Pinamonti,US Sassuolo,20
+494,Lauriente',US Sassuolo,20
+506,Alvarez A.,US Sassuolo,20
+531,Defrel,US Sassuolo,20
+546,Oddei,US Sassuolo,20
+550,Antiste,US Sassuolo,20
