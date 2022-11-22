@@ -353,4 +353,4 @@ MigrationBackup/
 .DS_Store
 
 # Excel files
-.xlsx
+*.xlsx
