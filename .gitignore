@@ -351,3 +351,6 @@ MigrationBackup/
 
 # Mac stupid file
 .DS_Store
+
+# Excel files
+.xlsx
