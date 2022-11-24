@@ -80,13 +80,13 @@ while True:
 TransformExcel()
 
 while True:
-    ris = input("Vuoi applicare altri filtri? [yes]/[no] ").lower()
+    ris = input("Vuoi applicare altri filtri? [yes/no] ").lower()
     if ris == "yes":
         TransformExcel()
     else:
         break
 
-answ = input("Vuoi salvare il file? [yes]/[no]: ").lower()
+answ = input("Vuoi salvare il file? [yes/no]: ").lower()
 if answ == 'yes':
     ## convert your array into a dataframe
     df = pd.DataFrame(file)
