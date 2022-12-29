@@ -21,7 +21,6 @@ def WriteString(sL):
 
 
 f = open("C:\\Users\\mattz\\Desktop\\export.txt", "r", encoding="utf-8")
-file = []
 importValues = []
 
 for line in f:
