@@ -10,7 +10,7 @@ import time
 # print("Name of the operating system:", os.name)
 # print("Name of the OS system:", platform.system())
 
-N_HOSTS = 3
+N_HOSTS = 255
 
 argv = sys.argv
 if len(argv) != 2:
