@@ -1,9 +1,14 @@
-defaultOutputPath = "C:\\Users\\mattz\\Desktop\\your_file.txt"
+defaultOutputPath = "C:\\Users\\mattz\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell\\PSReadLine\\ConsoleHost_history.new.txt"
 file = []
 toWrite = []
+pathFile = ""
 
-pathFile = input("Inserisci il nome del file o il percorso\n")
-f = open(pathFile, "r", encoding="utf-8")
+resp = input("Vuoi usare il percorso predefinito? [Y/N] ")
+if resp == "N":
+    pathFile = input("Inserisci il nome del file o il percorso\n")
+#    f = open(pathFile, "r", encoding="utf-8")
+else:
+    pathFile = "C:\\Users\\mattz\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell\\PSReadLine\\ConsoleHost_history.txt"
 
 try:
     f = open(pathFile, "r", encoding="utf-8")
